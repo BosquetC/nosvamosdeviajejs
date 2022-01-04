@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+    </div>
+    <H1  >NOS VAMOS DE VIAJE</H1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../index.html">VIAJES</a></li>
+            <li><a href="./diario.html">DIARIO</a></li>
+            <li><a class = "iconocarrito" href="#carritoid"><i class="fas fa-shopping-cart"></i></a></li> 
+        </ul>
+    </nav>
+</header>
+<section>
+    <div id = "TOP"  class="carrusel">
+        <img class= "portadas" src="../imagenes/portugal.jpg" alt="Paisaje de portugal, mar azul con barcos">
+    </div>
+    <div>
+        <h1 class="tituloviajes" >Bienvenido a tu diario de viaje</h1>
+        <div class="contenedor">       
+        <p>Ingrese los datos del viaje</p>
+        <form>
+            <input id = "pais" type="text" placeholder="Ingrese el país al que desea viajar"class = "formulario">
+            <input id = "dias" type="text" placeholder="Ingrese los días que deseas quedarte"class = "formulario">
+            <input id = "mes" type="text" placeholder="Ingrese el mes en el que deseas viajar"class = "formulario">
+            <button id= "boton" class="botonsito" type="reset">Guardar</button>
+        </form>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Días</th>
+                    <th>Mes de viaje</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="tbodyt">
+
+            </tbody>
+            
+        </table>
+            </div>
+        </div>
+        <script src="../js/proyecto2.js"></script>
+</body>
+</html>

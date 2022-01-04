@@ -1,0 +1,45 @@
+[
+    { 
+      "imagen": "imagenes/italia.jpg",
+      "pais"  : "Italia",
+      "fecha" : "18/3/2022", 
+      "dias" : "15 días",
+      "precio" : 70000,
+    "id" : 1
+    },
+    { "imagen": "imagenes/portugal.jpg",
+      "pais"  : "Portugal",
+      "fecha" : "25/4/2022", 
+      "dias" : "20 días",
+      "precio" :  90000,
+      "id" : 2
+    },
+    { "imagen": "imagenes/inglaterra.jpg",
+    "pais"  : "Inglaterra",
+    "fecha" : "15/5/2022", 
+    "dias" : "14 días",
+    "precio" : 85000,
+    "id" : 3
+  },
+  { "imagen": "imagenes/francia.jpg",
+      "pais"  : "Francia",
+      "fecha" : "5/3/2022", 
+      "dias" : "25 días",
+      "precio" : 120000,
+      "id" : 4
+    },
+    { "imagen": "imagenes/alemania.jpg",
+      "pais"  : "Alemania",
+      "fecha" : "25/4/2022", 
+      "dias" : "20 días",
+      "precio" : 90000,
+      "id" : 5
+    },
+    { "imagen": "imagenes/dinamarca.jpg",
+    "pais"  : "Dinamarca",
+    "fecha" : "15/5/2022", 
+    "dias" : "15 días",
+    "precio" : 100000,
+    "id" : 6
+  }
+]

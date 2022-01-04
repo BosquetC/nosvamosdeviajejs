@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        </div>
+        <H1  >NOS VAMOS DE VIAJE</H1>
+        <nav>
+            <ul >
+                <li><a href="#TOP">HOME</a></li>
+                <li><a href="#viajesTitulo">VIAJES</a></li>
+                <li><a href="./html/diario.html">DIARIO</a></li>
+                <li><a class = "iconocarrito" href=""><i class="fas fa-shopping-cart"></i></a></li> 
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id = "TOP"  class="carrusel">
+                <img id="1" class= "portadas" src="./imagenes/italia.jpg" alt="Paisaje de Italia,canal de Venecia">
+                <img id="2" class= "portadas" src="./imagenes/portugal.jpg" alt="Paisaje de Italia,canal de Venecia">
+                <img id="3" class= "portadas" src="./imagenes/francia.jpg" alt="Paisaje de Italia,canal de Venecia">
+               <img id="4" class= "portadas" src="./imagenes/inglaterra.jpg" alt="Paisaje de Italia,canal de Venecia">
+        </div>
+        <div id = "viajesTitulo">
+            <h1 class="tituloviajes">Viajes</h1>
+        </div>
+        <div class="formnoform">
+        <div class="inputform">
+            <input type="radio"  id="value1" name="buton" value="ECONOMICO">
+            <label for="ECONOMICO"> $100.000 o Más </label>
+        </div>
+        <div class="inputform">
+            <input type="radio"  id="value2"  name="buton" value="COSTOSO">
+            <label for="COSTOSO"> $90.000 o Menos </label>
+        </div>
+        <div class="inputform">
+            <input type="radio"  id="value3"  name="buton" value="todos">
+            <label for="todos"> Todos </label>
+        </div>
+        </div>
+ 
+        <div class="items">
+        </div >
+        <div id= "carritoid"class="carrito">
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Fecha</th>
+                        <th>Días</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                    <tbody class="tablaBody">
+                    </tbody> 
+                    <tfoot>
+                        <tr>
+                            <th class="tfooter"></th>
+                        </tr>
+                    </tfoot>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="redes">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+        <p>© Copyright 2021 Aviso legal Política de privacidad Política de cookies</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/proyecto3.js"></script>
+</body>
+
+</html>

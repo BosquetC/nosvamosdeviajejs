@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{ background-color:#343534;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+}
+h1{
+    color: whitesmoke;
+    margin: 50px;
+    width: 600px;
+}
+nav{
+    margin-left: 600px;
+}
+li{ display:inline-block;
+       
+}
+a{  color: whitesmoke;
+    text-decoration: none;
+    padding: 25px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+a:hover{
+ color: paleturquoise
+}
+a:active{
+    color: plum ;
+}
+div.carrusel{
+  width: 100%;
+  height: 900px;
+}
+.portadas{
+    width: inherit;
+    height: inherit;
+}
+.tituloviajes{
+    margin-left: 650px;
+    text-align: center;
+    color:cornflowerblue;
+    font-size: 50px;
+}
+.formnoform{
+      font-family:'Nunito', sans-serif; 
+      display: inline;
+      
+}
+.inputform{
+     margin: 20px;
+     margin-left: 890px;
+
+}
+
+
+.items{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    margin: 50px;
+width: 300px;
+height: 320px;
+font-family:'Nunito', sans-serif;
+background-color: #343534; 
+color: whitesmoke;
+border-radius: 5px;
+box-shadow:  5px 5px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+.cards:hover{
+   transform:scale(1.2,1.2);
+}
+.imgcard{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+.botonc{
+margin-top: 10px;
+width: 200px;
+height: 35px;
+font-family:'Nunito', sans-serif;
+font-size: 15px;
+font-weight: bold;
+color:#343534 ;
+background-color: paleturquoise;
+border-radius: 5px;
+}
+.botonc:hover{
+
+  background-color:cornflowerblue;
+  color: whitesmoke;
+}
+
+#carritoid{
+  background-color: whitesmoke;
+  width: 900px;
+  height: 250px;
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  border-radius: 5px;
+  
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    
+  }
+  thead{
+    
+    height: 50px;
+    color: cornsilk;
+    background-color:cornflowerblue;
+    border-collapse: collapse;
+  }
+  tbody{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+ button{
+    background-color:#343534;
+    color: whitesmoke;
+    margin: 20px;
+    width: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+  .beliminar{
+    width: 70px;
+  }
+  .botonlimpiarcarrito{
+    background-color:#343534;
+    font-family:'Nunito', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    width: 100%;
+    height: 30px;
+    
+  }
+  .botoncomprar{background-color:cornflowerblue;;
+    font-family:'Nunito', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    width: 100%;
+    height: 30px;
+  }
+
+p{
+  text-align: center;
+}
+form{
+margin-left: 35%;
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+input.formulario {
+  
+  width: 100%;
+  height: 30px;
+  margin: 20px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-radius:5px;
+}
+
+button.botonsito {
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background:  paleturquoise;
+  cursor: pointer;
+  color: #343534;
+}
+button.botonsito:hover{
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+table{
+  table-layout: fixed;
+   width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+thead{
+  width: 100%;
+  height: 50px;
+  color: cornsilk;
+  background-color:cornflowerblue;
+}
+tbody{
+  text-align: center;
+
+}
+footer{
+    background-color: #343534;
+}
+div.redes{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.redes>a{
+    font-size: 30px;
+}
+footer>p{
+    color: whitesmoke ;
+    font-family:'Nunito', sans-serif;
+    text-align: center;
+}
